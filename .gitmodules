@@ -1,0 +1,6 @@
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = https://gitee.com/mirrors_adityatelange/hugo-PaperMod.git
+[submodule "LoveIt"]
+	path = LoveIt
+	url = https://gitee.com/laijingwei/LoveIt.git

@@ -1,0 +1,5 @@
+theme = "PaperMod"
+
+baseURL = 'https://Morgan.github.io/'
+languageCode = 'zh-CN'
+title = 'MorganSun的博客'
