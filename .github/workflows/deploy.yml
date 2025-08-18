@@ -2,30 +2,28 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]  # main分支推送时触发
+    branches: [ main ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          submodules: recursive  # 重要！拉取主题子模块:cite[4]:cite[6]
-
+          submodules: recursive
+          
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          extended: true  # 如需扩展版功能:cite[4]
-
+          hugo-version: '0.148.2'
+          extended: true
+          
       - name: Build
-        run: hugo --minify --gc  # 生成静态文件到public/
-
+        run: hugo --minify --gc
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # 自动内置，无需手动生成:cite[4]:cite[8]
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          force_orphan: true  # 完全覆盖gh-pages分支历史:cite[1]
