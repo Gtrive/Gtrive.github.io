@@ -11,6 +11,8 @@
     <loc>http://localhost:1313/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2025-08-04T21:16:58+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/test/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
