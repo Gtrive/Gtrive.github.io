@@ -4,3 +4,6 @@
 [submodule "LoveIt"]
 	path = LoveIt
 	url = https://gitee.com/laijingwei/LoveIt.git
+[submodule "themes/papermod"]
+	path = themes/papermod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
