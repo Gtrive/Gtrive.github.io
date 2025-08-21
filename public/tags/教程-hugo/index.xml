@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[&#34;教程&#34;, &#34;Hugo&#34;] on MorganSun的博客</title>
+    <link>http://localhost:1313/tags/%E6%95%99%E7%A8%8B-hugo/</link>
+    <description>Recent content in [&#34;教程&#34;, &#34;Hugo&#34;] on MorganSun的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 20 Aug 2025 14:30:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%95%99%E7%A8%8B-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第二篇文章</title>
+      <link>http://localhost:1313/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Wed, 20 Aug 2025 14:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <description>&lt;p&gt;\## 欢迎阅读我的第二篇文章&lt;/p&gt;&#xA;&lt;p&gt;这里是文章正文内容&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;\### 小标题&lt;/p&gt;&#xA;&lt;p&gt;\- 列表项 1&lt;/p&gt;&#xA;&lt;p&gt;\- 列表项 2&lt;/p&gt;&#xA;&lt;p&gt;\- 列表项 3&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;引用文字&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

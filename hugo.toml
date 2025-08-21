@@ -3,3 +3,23 @@ theme = "PaperMod"
 baseURL = 'https://Morgan.github.io/'
 languageCode = 'zh-CN'
 title = 'MorganSun的博客'
+
+[params.profileMode]
+enabled = true
+title = "Morgan的博客"
+subtitle = "欢迎来到我的技术博客"
+# imageUrl = "/images/avatar.jpg"
+# imageWidth = 120
+# imageHeight = 120
+
+[[params.profileMode.buttons]]
+name = "所有文章"  # 修改显示文字
+url = "/posts"    # 修改为文章列表页面
+
+[[params.profileMode.buttons]]
+name = "GitHub"
+url = "https://github.com/Gtrive"
+
+[[params.socialIcons]]
+name = "GitHub"
+url = "https://github.com/Gtrive"
